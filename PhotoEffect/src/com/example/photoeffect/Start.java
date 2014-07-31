@@ -480,8 +480,8 @@ public class Start extends Activity {
 		// Store image in dcim
 		File file = new File(Environment.getExternalStorageDirectory()
 				+ "/DCIM/", "image" + new Date().getTime() + ".png");
-		Uri imgUri = Uri.fromFile(file);
-		return imgUri;
+		Uri imgUri1 = Uri.fromFile(file);
+		return imgUri1;
 	}
 
 	public void cameraImageCapture() {
