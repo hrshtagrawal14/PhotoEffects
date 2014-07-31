@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen8"
+    android:orientation="vertical" >
+
+    
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/mgallery"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true"
+   android:layout_marginRight="30dp"
+    android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/startselector" />
+
+    <ImageButton
+        android:id="@+id/mCamera"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+      android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cameraselect"></ImageButton></RelativeLayout>
