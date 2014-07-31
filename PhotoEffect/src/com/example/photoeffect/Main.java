@@ -130,8 +130,8 @@ public class Main extends Activity {
 					"File saved successfully to /LikePhotoshop/",
 					Toast.LENGTH_SHORT).show();
 
-		} catch (FileNotFoundException e) {
-			Log.w("TAG", "Error saving image file: " + e.getMessage());
+		} catch (FileNotFoundException e1) {
+			Log.w("TAG", "Error saving image file: " + e1.getMessage());
 		} catch (IOException ioe) {
 			ioe.printStackTrace();
 		}
